@@ -15,7 +15,7 @@ jobs:
             github.checks.create({
                 name: 'My check name',
                 head_sha: '${{github.sha}}',
-                owner: "konradpabjan",
+                owner: "elbrenn",
                 repo: "actions-checks-test",
                 status: "in_progress",
                 started_at: new Date()
